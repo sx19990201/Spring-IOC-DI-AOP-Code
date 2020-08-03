@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+<bean id="user1" class="com.spring.ioc.ioc_not_annotation.pojo.User" scope="singleton">
+    <property name="id" value="1"/>
+    <property name="name" value="冬瓜"/>
+    <property name="password" value="123456"/>
+</bean>
+<bean id="user2" class="com.spring.ioc.ioc_not_annotation.pojo.User" scope="prototype">
+    <property name="id" value="2"/>
+    <property name="name" value="南瓜"/>
+    <property name="password" value="654321"/>
+</bean>
+</beans>
